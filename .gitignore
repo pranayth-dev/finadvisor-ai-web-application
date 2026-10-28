@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+server/venv/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Node.js
+node_modules/
+client/node_modules/
+dist/
+client/dist/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Editor files
+.vscode/
+.idea/
